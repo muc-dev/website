@@ -1,20 +1,12 @@
 # muc.dev
+website for the muc.dev group
 
-## Build Setup
 
-```bash
-# install dependencies
-$ yarn install
+## Powered by Vercel
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+<p align="left">
+  <a aria-label="Vercel logo" href="https://vercel.com/?utm_source=muc-dev&utm_campaign=oss" rel="noopener noreferrer" target="_blank">
+    <img src="./static/vercel.svg">
+  </a>
+</p>
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

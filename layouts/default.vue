@@ -7,8 +7,16 @@
       <p>The local developer group of bavaria.</p>
     </header>
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
-<style>
-</style>
+<script>
+import Footer from '@/components/Footer'
+
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
