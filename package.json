@@ -10,11 +10,32 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
+    "@tiptap/core": "^2.0.0-beta.12",
+    "@tiptap/extension-bold": "^2.0.0-beta.1",
+    "@tiptap/extension-bullet-list": "^2.0.0-beta.1",
+    "@tiptap/extension-code-block": "^2.0.0-beta.1",
+    "@tiptap/extension-document": "^2.0.0-beta.1",
+    "@tiptap/extension-heading": "^2.0.0-beta.1",
+    "@tiptap/extension-highlight": "^2.0.0-beta.1",
+    "@tiptap/extension-history": "^2.0.0-beta.1",
+    "@tiptap/extension-horizontal-rule": "^2.0.0-beta.2",
+    "@tiptap/extension-image": "^2.0.0-beta.1",
+    "@tiptap/extension-italic": "^2.0.0-beta.1",
+    "@tiptap/extension-link": "^2.0.0-beta.2",
+    "@tiptap/extension-list-item": "^2.0.0-beta.1",
+    "@tiptap/extension-paragraph": "^2.0.0-beta.1",
+    "@tiptap/extension-strike": "^2.0.0-beta.1",
+    "@tiptap/extension-task-item": "^2.0.0-beta.1",
+    "@tiptap/extension-task-list": "^2.0.0-beta.1",
+    "@tiptap/extension-text": "^2.0.0-beta.1",
+    "@tiptap/vue-2": "^2.0.0-beta.13",
     "core-js": "^3.9.1",
     "luxon": "^1.26.0",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "nuxt-svg-loader": "^1.2.0"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.5",
     "@nuxtjs/tailwindcss": "^4.0.1",
     "postcss": "^8.2.8"
   }

@@ -2,7 +2,7 @@
   <main>
     <section class="flex space-x-24">
       <div class="w-1/4">
-        <h2 class="text-2xl border-4 border-black inline px-5 py-2 font-bold">
+        <h2 class="text-2xl border-4 dark:border-white border-black inline px-5 py-2 font-bold">
           about.
         </h2>
         <div class="mt-12">
@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="w-1/2">
-        <h2 class="text-2xl border-4 border-black inline px-5 py-2 font-bold">
+        <h2 class="text-2xl border-4 dark:border-white border-black inline px-5 py-2 font-bold">
           projects.
         </h2>
         <div class="mt-12">
@@ -24,7 +24,8 @@
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
 <style>

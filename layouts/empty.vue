@@ -1,6 +1,5 @@
 <template>
   <div class="max-w-screen-lg mx-auto">
-    <page-header size="big" />
     <Nuxt />
     <vercel-footer />
   </div>
@@ -8,7 +7,6 @@
 
 <script>
 import VercelFooter from '@/components/vercel-footer'
-import PageHeader from '@/components/page-header'
 
 export default {
   head () {
@@ -19,7 +17,6 @@ export default {
     }
   },
   components: {
-    PageHeader,
     VercelFooter,
   },
 }

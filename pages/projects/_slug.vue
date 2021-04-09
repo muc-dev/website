@@ -1,9 +1,5 @@
 <template>
   <main>
-    <h1 class="text-4xl font-medium mb-6">
-      {{ project.title }}
-      <span class="font-gray-800 font-light text-sm ml-2">{{ project.startDate }}</span>
-    </h1>
     <nuxt-content :document="project" />
   </main>
 </template>
@@ -11,6 +7,7 @@
 <script>
 
 export default {
+  layout: 'project',
   async asyncData ({ $content, params }) {
     const project = await $content('projects/', params.slug).fetch()
 

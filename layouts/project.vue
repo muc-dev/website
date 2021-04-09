@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-screen-lg mx-auto">
-    <page-header size="big" />
+    <page-header size="small" />
     <Nuxt />
     <vercel-footer />
   </div>
@@ -21,6 +21,6 @@ export default {
   components: {
     PageHeader,
     VercelFooter,
-  },
+  }
 }
 </script>

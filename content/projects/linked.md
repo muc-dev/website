@@ -4,16 +4,25 @@ description: a journal app to link your thoughts to days
 startDate: 19.03.2021
 ---
 
-**why was this app created?**
+<div class="bg-red-800 pt-24 text-white dark:text-black">
+  <div class="w-full flex justify-between items-stretch px-12">
+    <div class="flex flex-col">
+      <h1 class="text-6xl">linked</h1>
+      <p>link your thoughts to days.</p>
+    </div>
+    <linked-demo />
+  </div>
+  <div class="w-full bg-black px-12 py-6 text-center font-black">You can try the app right here 👆</div>
+</div>
+<br>
+<br>
+
+# why was the app created?
 
 we needed a tool to write down the daily business in our scrum team
 
-<br>
+<br><br>
 
-**how can you get the app?**
+# how can you get the app?
 
 the app is free, you can [download](https://github.com/muc-dev/linked/releases) the latest release on github
-
-
-
-![v1.1.2 screenshot](https://user-images.githubusercontent.com/5164617/112966541-9f3b4080-914a-11eb-9dff-00ea2a121b93.png)
