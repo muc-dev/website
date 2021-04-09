@@ -7,7 +7,7 @@
       </div>
       <slot />
     </div>
-    <div class="w-full bg-black px-12 py-6 text-center font-black">{{ trial }}</div>
+    <div class="w-full bg-black dark:bg-white px-12 py-6 text-center font-black">{{ trial }}</div>
 </section>
 </template>
 
@@ -17,7 +17,7 @@ export default {
     title: {
       type: String,
     },
-    tagLine: {
+    tagline: {
       type: String,
     },
     trial: {
