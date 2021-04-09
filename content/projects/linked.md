@@ -19,3 +19,7 @@ we needed a tool to write down the daily business in our scrum team
 # how can you get the app?
 
 the app is free, you can [download](https://github.com/muc-dev/linked/releases) the latest release on github
+<br>
+<br>
+<br>
+<br>

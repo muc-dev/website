@@ -145,7 +145,7 @@ export default {
       autofocus: true,
       onUpdate: ({ editor }) => {
         this.content = editor.getHTML()
-        this.debounce(this.saveFile(), 2000)
+        this.debounce(this.saveFile(), 600)
       }
     })
 

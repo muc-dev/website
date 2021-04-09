@@ -1,11 +1,11 @@
 <template>
   <header class="bg-black text-white dark:bg-white dark:text-black mt-12 relative" :class="getHeaderClasses">
-    <nuxt-link to="/" class="font-bold select-none" :class="{ 'text-6xl': size === 'big', 'text-2xl': size === 'small' }">
+    <nuxt-link to="/" class="inline font-bold select-none" :class="{ 'text-6xl': size === 'big', 'text-2xl': size === 'small' }">
       muc.dev
-      <p class="font-normal" :class="{ 'text-base': size === 'big', 'text-xs': size === 'small' }">
-        The local developer group of bavaria.
-      </p>
     </nuxt-link>
+    <p class="font-normal block" :class="{ 'text-base': size === 'big', 'text-xs': size === 'small' }">
+      The local developer group of bavaria.
+    </p>
 
     <div class="absolute top-0 right-0 m-4 hover:text-gray-500 cursor-pointer" @click="toggleTheme">
       <template v-if="this.$colorMode.preference === 'dark'">
