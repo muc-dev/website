@@ -1,10 +1,13 @@
 module.exports = {
   darkMode: 'class',
-  purge: [
-    './*.html',
-    './components/**/*.vue',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './content/**/*.md',
-  ],
+  purge: {
+    enabled: false,
+    content: [
+      './*.html',
+      './components/**/*.vue',
+      './layouts/**/*.vue',
+      './pages/**/*.vue',
+      './content/**/*.md',
+    ]
+  },
 }
